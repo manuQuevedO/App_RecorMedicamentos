@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P_PrincipalActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonGraficos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="Boton Gráficos"
+        />
+
+    <Button
+        android:id="@+id/buttonOperaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Boton Operaciones"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="286dp"
+        />
+
+    <Button
+        android:id="@+id/buttonAcerca"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="#2F6AB1"
+        android:backgroundTint="#7E5454"
+        android:backgroundTintMode="src_in"
+        android:text="Acerca de"
+        app:iconTint="#5A2C2C"
+        app:rippleColor="#8F6464"
+        app:strokeColor="#683D3D" />
+
+    <Button
+        android:id="@+id/buttonSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Boton Salir"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/buttonMedicamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicamentos" />
+    <Button
+        android:id="@+id/buttonHorarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horarios" />
+
+
+</LinearLayout>
